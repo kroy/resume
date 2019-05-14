@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%   TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{1\textwidth} % 45% of the page width for name
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+    
+    % If your name is very short, use just one of the lines below
+    % If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Kiron Roy}}}}} \hspace{.3 cm} \large\texttt{732-241-1722\slashsep\href{mailto:kroy.xc@gmail.com}{kroy.xc@gmail.com}\slashsep\href{https://github.com/kroy}{github.com/kroy}}
+    
+    \vspace{6pt}
+    
+    %{\huge Web App Architect} % Career or current job title
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%   INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{About Me}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+    
+    I'm a web developer with wide ranging experience over 5.5 years in the industry. I've spent the bulk of my time at Etsy, where I learned how to work all over the stack, from server configuration, to DB schemas, to the frontend. I'm curious, thoughtful, and passionate about working with people to solve difficult problems. I love thinking about how tech can be used as a tool to pick away at injustice - and when it needs to take a back-seat to other things.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+    \icon{Qrcode}{12}{\textbf{Programming Langs} php, Javascript, Java}\\
+    \icon{InternetExplorer}{12}{\textbf{Web} React, Ruby on Rails, JQuery, HTML, CSS}\\
+    \icon{Database}{12}{\textbf{Datastores} MySQL, Vertica}\\
+    \icon{GraduationCap}{12}{\textbf{Education} BA in CS and Math, Oberlin College, 2011}
+\end{minipage}
+
+% \begin{center}
+%     \bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+% \end{center}
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+    \entry
+        {Etsy}
+        {Software Engineer \hspace{1mm}\texttt{php}\slashsep\texttt{React}\slashsep\texttt{Full-stack}}
+        {Aug 2014 -- Aug 2018}
+        {
+            Developed features for Etsy.com, working on most parts of the stack\\
+            Collaborated with designers, product managers, and stakeholders\\
+            Prototyped, built and iterated on features for internal teams and Etsy Sellers\\
+            Hunted bugs and wrote tests\\
+            Monitored my teams’ critical features on Etsy.com and responded to outages\\
+            Deployed code up to multiple times per day, shepherding it through build, automated QA, pre-prod and production\\
+            Participated in post-mortems and proposed remediation items\\
+            Wrote map-reduce jobs to collate large data sets\\
+            Assisted non-technical teammates in accessing our analytical data stores\\
+            Projects include:\\
+            \begin{minipage}[t]{0.05\textwidth}\,\end{minipage}
+            \begin{minipage}[t]{0.8\textwidth}a push-notification framework\end{minipage}\\
+            \begin{minipage}[t]{0.05\textwidth}\,\end{minipage}
+            \begin{minipage}[t]{0.8\textwidth}analysis and cleanup of Etsy’s marketing data pipeline\end{minipage}\\
+            \begin{minipage}[t]{0.05\textwidth}\,\end{minipage}
+            \begin{minipage}[t]{0.8\textwidth}a React app for Etsy's merchandising team\end{minipage}\\
+            \begin{minipage}[t]{0.05\textwidth}\,\end{minipage}
+            \begin{minipage}[t]{0.8\textwidth}Canada Post shipping labels for Etsy Sellers\end{minipage}\\
+            \begin{minipage}[t]{0.05\textwidth}\,\end{minipage}
+            \begin{minipage}[t]{0.8\textwidth}cleanup and generalization of the pre-calculated shipping interface\end{minipage}
+        }
+    \entry
+        {Freelance}
+        {Full-stack Developer \hspace{1mm}\texttt{php}\slashsep\texttt{js}}
+        {Jan 2014 - Aug 2014}
+        {
+            Worked with clients to design, build, deploy, and maintain websites and webapps\\
+            Communicated clearly and effectively with clients\\
+            Used and learned the tools required to accomplish the client’s goals
+        }
+    \entry
+        {Accenture}
+        {Java Engineer \hspace{1mm}\texttt{Java}\slashsep\texttt{Spring}}
+        {2012 -- May 2013}
+        {
+            Developed web applications for government clients\\
+            Supported post-production operations and maintenance of high-demand, high-availability websites\\
+            Translated high-level requirements provided by a non-technical client into working code\\
+            Mentored new hires and acted as a subject matter expert to coworkers
+        }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%   ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+\cvsect{References}
+    
+    \large\textbf{Bertrand Moulard} \slashsep \large\texttt{Manager at Etsy\slashsep917 214 0977\slashsep\href{mailto:Bertrandmoulard@gmail.com}{Bertrandmoulard@gmail.com}}\\
+    \large\textbf{Maria Hernandez} \slashsep \large\texttt{Mentor at Etsy\slashsep718 877 1520\slashsep\href{mailto:nandez@etsy.com}{nandez@etsy.com}}\\
+    \large\textbf{Carlos Riojas} \slashsep \large\texttt{Manager at Accenture\slashsep\href{mailto:Carlos.A.Riojas@accenturefederal.com}{Carlos.A.Riojas@accenturefederal.com}}
+
+\begin{minipage}[t]{0.45\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+    
+    \cvsect{Hobbies}
+    
+    I climb, take photographs, print them in the darkroom, read about the US Intelligence apparatus, fix bikes, and write about my Indian family
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

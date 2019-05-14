@@ -1,0 +1,4 @@
+*.aux
+*.out
+# latex outputs a txt file when compiling
+*.txt
